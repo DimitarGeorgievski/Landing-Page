@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    position: relative;
+    font-size: 24px;
+    color: #F9FAF8;
+    left: 10%;
+    margin: 18px;
+}
+.gdel{
+    background-color: #1F2937;
+}
+.header-links{
+    position: relative;
+    left: 45%;
+    margin-top: 25px;
+}
+header{
+    display:flex;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none; 
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.sekcija1{
+    background-color: #1F2937;
+    width: 100%;
+    height: 450px;
+}
+.sekcija1 h1{
+    position: relative;
+    left: 10%;
+    top: 20%;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 700;
+}
+.sekcija1 p{
+    position: relative;
+    left: 10%;
+    top: 20%;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.sekcija1 button{
+    position: relative;
+    left: 10%;
+    top: 22%;
+    background-color: #3882F6;
+    width: 120px;
+    height: 35px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+}
+.sekcija1 .placeholder{
+    position:absolute;
+    width: 500px;
+    height: 230px;
+    background-color: #E5E7EB;
+    left: 48%;
+    top: 25%;
+}
+.sekcija1 .placeholder p{
+    position: relative;
+    left: 23.5%;
+    top: 42%;
+    color: #FFF;
+}
+.sekcija2{
+    background-color: #FFF;
+    width: 100%;
+    height: 450px;
+}
+.sekcija2 h2{
+    position: relative;
+    left:34%;
+    top:16%;
+    font-size: 36px;
+    color: #1F2937;
+}
+.sekcija2 .kvadrat1{
+    position: absolute;
+    left:20%;
+    bottom: -32%;
+    border: 5px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+.sekcija2 .kvadrat2{
+    position: absolute;
+    left:35%;
+    bottom: -32%;
+    border: 5px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+.sekcija2 .kvadrat3{
+    position: absolute;
+    left:50%;
+    bottom: -32%;
+    border: 5px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+.sekcija2 .kvadrat4{
+    position: absolute;
+    left:65%;
+    bottom: -32%;
+    border: 5px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+.sekcija2 .kvadrat1t{
+    position: absolute;
+    font-size: 18px;
+    left: 20%;
+    bottom: -44%;
+    text-align: center;
+    color: #1F2937;
+}
+.sekcija2 .kvadrat2t{
+    position: absolute;
+    font-size: 18px;
+    left: 35%;
+    bottom: -44%;
+    text-align: center;
+    color: #1F2937;
+}
+.sekcija2 .kvadrat3t{
+    position: absolute;
+    font-size: 18px;
+    left: 50%;
+    bottom: -44%;
+    text-align: center;
+    color: #1F2937;
+}
+.sekcija2 .kvadrat4t{
+    position: absolute;
+    font-size: 18px;
+    left: 65%;
+    bottom: -44%;
+    text-align: center;
+    color: #1F2937;
+}
+.sekcija3 p{
+    position: absolute;
+    font-size: 36px;
+    color: #1F2937;
+    left: 20%;
+    bottom: -105%;
+    font-style: italic;
+}
+.sekcija3{
+    width: 100%;
+    height: 450px;
+    background-color: #E5E7EB;
+}
+.sekcija3 h1{
+    position: absolute;
+    color: #1F2937;
+    right: 22%;
+    bottom: -109%;
+}
+.sekcija4{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+}
+.sekcija4 .container{
+    position: relative;
+    width: 77%;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    left: 9%;
+    top: 25%;
+}
+.sekcija4 .container h2{
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    left: 10%;
+    top: 30%;
+}
+.sekcija4 .container p{
+    position: relative;
+    color: #1F2937;
+    font-size: 18px;
+    left: 10%;
+    top: 32%;
+}
+.sekcija4 .container button{
+    position: relative;
+    background-color: #3882F6;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 35px;
+    color: #fff;
+    border-radius: 10px;
+    left: 74%;
+    top: 8%;
+    font-size: 18px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #1F2937;
+    color: #fff;
+    font-size: 18px;
+}
